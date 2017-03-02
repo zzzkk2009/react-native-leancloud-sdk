@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/Users/zachary/projects/zzzkk2009/react-native-leancloud-sdk/example/android/leancloudsdk/src/main/res/values/strings.xml -->
-    <eat-comment/>
-    <string name="app_name">LeancloudSdk</string>
-</resources>

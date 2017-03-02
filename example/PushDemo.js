@@ -13,7 +13,7 @@ import {
 import {Actions} from 'react-native-router-flux';
 
 import AV from 'leancloud-storage'
-import PushNotification from './AvOsSdk'
+import PushNotification from '@zzzkk2009/react-native-leancloud-sdk'
 
 const KM_Dev = {
   appId: 'K5Rltwmfnxd5pYjMsOFFL0kT-gzGzoHsz',

@@ -1,6 +1,6 @@
 {
   "name": "@zzzkk2009/react-native-leancloud-sdk",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "leancloud SDK(push...) for React Native(Android & IOS).",
   "main": "index.js",
   "scripts": {
