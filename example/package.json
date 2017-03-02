@@ -1,0 +1,26 @@
+{
+	"name": "example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "~15.4.0",
+		"react-native": "0.41.2",
+		"leancloud-installation": "^1.0.0",
+		"leancloud-storage": "^1.5.3",
+		"react-native-root-toast": "^1.0.3"
+	},
+	"devDependencies": {
+		"babel-jest": "19.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "19.0.2",
+		"react-test-renderer": "~15.4.0",
+		"react-native-router-flux": "^3.37.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@zzzkk2009/react-native-leancloud-sdk",
+  "version": "1.0.0",
+  "description": "leancloud SDK(push...) for React Native(Android & IOS).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzzkk2009/react-native-baidu-map.git"
+  },
+  "keywords": [
+    "leancloud",
+    "push notification",
+    "React Native"
+  ],
+  "author": "zachary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzzkk2009/react-native-leancloud-sdk/issues"
+  },
+  "homepage": "https://github.com/zzzkk2009/react-native-leancloud-sdk#readme"
+}
