@@ -66,6 +66,7 @@ NotificationsComponent.prototype.addEventListener = function(type: String, handl
       DEVICE_NOTIF_EVENT,
       function(notifData) {
         var data = JSON.parse(notifData.dataJSON);
+        data.data = JSON.parse(data['com.avos.avoscloud.Data'])
         handler(data);
       }
     );

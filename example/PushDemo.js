@@ -57,11 +57,10 @@ export default class PushDemo extends Component {
       // (required) Called when a remote or local notification is opened or received
       onNotification: function(notification) {
         console.log( 'NOTIFICATION:', notification );
-        const data = JSON.parse(notification['com.avos.avoscloud.Data'])
-        console.log('DATA:', data)
+        console.log('DATA:', notification.data)
         if(notification.foreground) {//应用程序在前台
           Actions.PushDemoCallback({
-            userInfo: data.userInfo
+            userInfo: notification.data.userInfo
           })
         }else {
           if(notification.userInteraction) {
