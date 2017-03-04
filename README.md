@@ -7,7 +7,7 @@
 ## Supported React Native Versions
 | Component Version     | RN Versions    | README     |
 |-----------------------|---------------|------------|
-| **1.1.0**          | **<= 0.41**   | [Open](https://github.com/zzzkk2009/react-native-leancloud-sdk/blob/master/README.md)   |
+| **1.1.0**          | **0.41**   | [Open](https://github.com/zzzkk2009/react-native-leancloud-sdk/blob/master/README.md)   |
 
 
 ## Installation
