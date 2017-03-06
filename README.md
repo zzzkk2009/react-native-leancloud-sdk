@@ -33,7 +33,7 @@ The component uses PushNotificationIOS for the iOS part.
 dependencies {
     ...
 
-    compile project(':@zzzkk2009/react-native-leancloud-sdk')
+    compile project(':zzzkk2009-react-native-leancloud-sdk')
 }
 ```
 
@@ -42,8 +42,8 @@ In `android/settings.gradle`
 ```gradle
 ...
 
-include ':@zzzkk2009/react-native-leancloud-sdk'
-project(':@zzzkk2009/react-native-leancloud-sdk').projectDir = file('../node_modules/@zzzkk2009/react-native-leancloud-sdk/android')
+include ':zzzkk2009-react-native-leancloud-sdk'
+project(':zzzkk2009-react-native-leancloud-sdk').projectDir = file('../node_modules/@zzzkk2009/react-native-leancloud-sdk/android')
 ```
 
 Manually register module in `MainApplication.java` (if you did not use `react-native link`):
