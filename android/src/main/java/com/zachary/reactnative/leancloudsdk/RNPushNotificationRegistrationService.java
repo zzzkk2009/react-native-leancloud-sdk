@@ -1,6 +1,7 @@
 package com.zachary.reactnative.leancloudsdk;
 
 import android.app.IntentService;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Looper;
@@ -56,6 +57,10 @@ public class RNPushNotificationRegistrationService extends IntentService {
                 AVAnalytics.enableCrashReport(getApplication().getApplicationContext(), true);
                 AVOSCloud.setLastModifyEnabled(true);
                 AVOSCloud.setDebugLogEnabled(true);
+
+                Context context = getApplication().getApplicationContext();
+                Intent pushService = new Intent(context, PushService.class);
+                context.startService(pushService);
 
                 //必须要设置默认的通知回调或者订阅一个频道，否则接收不到通知
                 mRNPushNotificationHelper = new RNPushNotificationHelper(getApplication());
